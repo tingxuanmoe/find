@@ -1,0 +1,45 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    position: relative;
+    border: 5px solid #ffb6c1;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.difference-marker {
+    position: absolute;
+    border: 3px solid red;
+    border-radius: 50%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
